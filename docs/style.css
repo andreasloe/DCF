@@ -157,6 +157,20 @@ main {
   overflow: hidden;
 }
 
+.card .thumb,
+.featured-video .thumb {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #f3f4f6;
+}
+
+.thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+}
 .card .thumb {
   aspect-ratio: 16 / 9;
   background: #e9eefc;
