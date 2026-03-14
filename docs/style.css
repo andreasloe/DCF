@@ -163,21 +163,26 @@ main {
 
 .featured-video .thumb,
 .card .thumb {
-  aspect-ratio: 16 / 9;
   overflow: hidden;
-  background: #f3f4f6;
+  background: #000;
 }
 
 .featured-video .thumb {
-  background: #dbe4ff;
+  aspect-ratio: 16 / 9;
 }
 
-.thumb img {
+.card .thumb {
+  aspect-ratio: 4 / 3;
+}
+
+.featured-video .thumb img,
+.card .thumb img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center center;
   display: block;
+  background: #000;
 }
 
 .featured-video .content {
