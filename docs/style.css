@@ -342,9 +342,17 @@ main {
 }
 
 .person-content p {
-  margin: 0;
+  margin: 0 0 10px;
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+.person-content p:last-child {
+  margin-bottom: 0;
+}
+
+.person-credit {
+  font-size: 0.88rem;
 }
 
 .imprint-box {
