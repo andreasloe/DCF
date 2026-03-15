@@ -1,3 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stochastic Discounted Cash Flow</title>
+  <meta
+    name="description"
+    content="Course materials for Stochastic Discounted Cash Flow: videos, book links, draft edition, and further material."
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="hero">
+        <h1>Stochastic Discounted Cash Flow</h1>
+        <p>
+          Course materials based on the open-access book
+          <em>Stochastic Discounted Cash Flow</em> by
+          <a href="https://orcid.org/0000-0002-6744-3776">Lutz Kruschwitz</a>
+          and
+          <a href="https://orcid.org/0000-0003-0813-9667">Andreas Löffler</a>.
+          The site provides quick access to videos, book chapters, the current draft edition, and lecture slides.
+        </p>
+
+        <p class="hero-note">
+          I am a university lecturer, not a professional podcaster with a large production team. So I do not always have the means to produce perfect videos. Occasionally, I say “above” when I mean “below”, or “later” when I mean “earlier” etc. I decided to leave these small slips in the videos, but I revised the subtitles instead (not perfectly either — but, after all, it is free). If you think something is phrased incorrectly, please check the subtitles first; and if it still seems wrong there, you know how to reach me.
+        </p>
+
+        <div class="button-row">
+          <a class="button secondary" href="https://link.springer.com/book/10.1007/978-3-030-37081-7" target="_blank" rel="noopener noreferrer">
+            Open-access book
+          </a>
+          <a class="button" href="pdfs/S-DCF.pdf" target="_blank" rel="noopener noreferrer">
+            3rd edition (draft)
+          </a>
+          <a class="button" href="https://www.youtube.com/playlist?list=PLB6XjckDU2kUoLej1hnur0MiBDtk1V3uL" target="_blank" rel="noopener noreferrer">
+            YouTube playlist
+          </a>
+          <a class="button tertiary" href="https://github.com/andreasloe/DCF" target="_blank" rel="noopener noreferrer">
+            Source code on GitHub
+          </a>
+        </div>
+      </div>
+
+      <nav class="jump-nav">
+        <a href="#basic">Basic Concepts</a>
+        <a href="#corporate">Corporate Income Tax</a>
+        <a href="#personal">Personal Income Tax</a>
+        <a href="#imprint">imprint</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="featured-video">
+      <a href="https://youtu.be/yO_IRBKnPI4" target="_blank" rel="noopener noreferrer">
+        <div class="thumb">
+          <img src="thumbnails/01.jpg" alt="Thumbnail for Introduction">
+        </div>
+      </a>
+      <div class="content">
+        <p class="eyebrow">Start here</p>
+        <h2>
+          <a href="https://youtu.be/yO_IRBKnPI4" target="_blank" rel="noopener noreferrer">
+            Introduction
+          </a>
+        </h2>
+        <p>
+          Recommended starting point for the course.
+        </p>
+        <p class="pdf-link">
+          <a href="lectures/lecture00.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="basic">
+      <div class="section-header">
+        <h2>Basic Concepts</h2>
+        <p>
+          Fundamental ideas of stochastic discounted cash flow valuation.
+        </p>
+        <p>
+          <a href="https://link.springer.com/chapter/10.1007/978-3-030-37081-7_2" target="_blank" rel="noopener noreferrer">
+            Related book chapter
+          </a>
+        </p>
+      </div>
+
+      <div class="video-grid">
+        <article class="card">
+          <a href="https://youtu.be/OSH4BcpLpJM" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="thumbnails/03.png" alt="Thumbnail for Time"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Basic Concepts</p>
+            <h3><a href="https://youtu.be/OSH4BcpLpJM" target="_blank" rel="noopener noreferrer">Time</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture01.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://youtu.be/J-PRddcQzBM" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="thumbnails/04.png" alt="Thumbnail for Taxes"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Basic Concepts</p>
+            <h3><a href="https://youtu.be/J-PRddcQzBM" target="_blank" rel="noopener noreferrer">Taxes</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture02.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://youtu.be/A8hHhJbV8mc" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="thumbnails/05.png" alt="Thumbnail for Information"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Basic Concepts</p>
+            <h3><a href="https://youtu.be/A8hHhJbV8mc" target="_blank" rel="noopener noreferrer">Information</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture03.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://youtu.be/UuWG_pdpSBs" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="thumbnails/06.png" alt="Thumbnail for Valuation"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Basic Concepts</p>
+            <h3><a href="https://youtu.be/UuWG_pdpSBs" target="_blank" rel="noopener noreferrer">Valuation</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture04.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://youtu.be/YzCSZvDr2AQ" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="thumbnails/07.png" alt="Thumbnail for Cost of Capital"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Basic Concepts</p>
+            <h3><a href="https://youtu.be/YzCSZvDr2AQ" target="_blank" rel="noopener noreferrer">Cost of Capital</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture05.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://youtu.be/ZlXj5tRHR9I" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="thumbnails/08.png" alt="Thumbnail for Fundamental Theorem"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Basic Concepts</p>
+            <h3><a href="https://youtu.be/ZlXj5tRHR9I" target="_blank" rel="noopener noreferrer">Fundamental Theorem</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture06.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://youtu.be/PejGTR4tZ9c" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="thumbnails/09.png" alt="Thumbnail for Transversality"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Basic Concepts</p>
+            <h3><a href="https://youtu.be/PejGTR4tZ9c" target="_blank" rel="noopener noreferrer">Transversality</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture07.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="corporate">
+      <div class="section-header">
+        <h2>Corporate Income Tax</h2>
+        <p>
+          Videos and materials on valuation with corporate income taxes.
+        </p>
+        <p>
+          <a href="https://link.springer.com/chapter/10.1007/978-3-030-37081-7_3" target="_blank" rel="noopener noreferrer">
+            Related book chapter
+          </a>
+        </p>
+      </div>
+
+      <div class="video-grid">
+        <article class="card">
+          <a href="https://youtu.be/ZzPHC4x5eYA" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="thumbnails/10.png" alt="Thumbnail for Debt, Equity and Insolvency"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Corporate Income Tax</p>
+            <h3><a href="https://youtu.be/ZzPHC4x5eYA" target="_blank" rel="noopener noreferrer">Debt, Equity and Insolvency</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture08.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://youtu.be/w7KYncBgoYY" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="thumbnails/11.png" alt="Thumbnail for Unlevered Firms"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Corporate Income Tax</p>
+            <h3><a href="https://youtu.be/w7KYncBgoYY" target="_blank" rel="noopener noreferrer">Unlevered Firms</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture09.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://youtu.be/jV3R6v3CEdA" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="thumbnails/12.png" alt="Thumbnail for Martingale-like Cash Flows"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Corporate Income Tax</p>
+            <h3><a href="https://youtu.be/jV3R6v3CEdA" target="_blank" rel="noopener noreferrer">Martingale-like Cash Flows</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture10.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://youtu.be/_dmQlJ0wk5c" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="thumbnails/13.png" alt="Thumbnail for Gordon-Shapiro and Discount Rates"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Corporate Income Tax</p>
+            <h3><a href="https://youtu.be/_dmQlJ0wk5c" target="_blank" rel="noopener noreferrer">Gordon-Shapiro and Discount Rates</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture11.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://youtu.be/ByjP2nzKbOo" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="thumbnails/14.png" alt="Thumbnail for Excursus: Excess Volatility"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Corporate Income Tax</p>
+            <h3><a href="https://youtu.be/ByjP2nzKbOo" target="_blank" rel="noopener noreferrer">Excursus: Excess Volatility</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture12.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://youtu.be/uXoFHda4Jk4" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="thumbnails/15.png" alt="Thumbnail for Levered Firms"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Corporate Income Tax</p>
+            <h3><a href="https://youtu.be/uXoFHda4Jk4" target="_blank" rel="noopener noreferrer">Levered Firms</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture13.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://youtu.be/PC91X-7c4Mo" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="thumbnails/16.png" alt="Thumbnail for Insolvency"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Corporate Income Tax</p>
+            <h3><a href="https://youtu.be/PC91X-7c4Mo" target="_blank" rel="noopener noreferrer">Insolvency</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture14.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://youtu.be/XLAqcnVsWr8" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="thumbnails/17.png" alt="Thumbnail for Insolvency Triggers"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Corporate Income Tax</p>
+            <h3><a href="https://youtu.be/XLAqcnVsWr8" target="_blank" rel="noopener noreferrer">Insolvency Triggers</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture15.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://youtu.be/RX-D7Jzxclo" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="thumbnails/18.png" alt="Thumbnail for Insolvency: Infinite Example"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Corporate Income Tax</p>
+            <h3><a href="https://youtu.be/RX-D7Jzxclo" target="_blank" rel="noopener noreferrer">Insolvency: Infinite Example</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture16.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://youtu.be/5zNtzihl3GU" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="https://img.youtube.com/vi/5zNtzihl3GU/hqdefault.jpg" alt="Thumbnail for Autonomous Financing"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Corporate Income Tax</p>
+            <h3><a href="https://youtu.be/5zNtzihl3GU" target="_blank" rel="noopener noreferrer">Autonomous Financing</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture17.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://youtu.be/mYI9_OCJ_5Y" target="_blank" rel="noopener noreferrer">
+            <div class="thumb"><img src="https://img.youtube.com/vi/mYI9_OCJ_5Y/hqdefault.jpg" alt="Thumbnail for Financing Based on Market Values"></div>
+          </a>
+          <div class="content">
+            <p class="eyebrow">Corporate Income Tax</p>
+            <h3><a href="https://youtu.be/mYI9_OCJ_5Y" target="_blank" rel="noopener noreferrer">Financing Based on Market Values</a></h3>
+            <p class="pdf-link"><a href="lectures/lecture18.pdf" target="_blank" rel="noopener noreferrer">Slides (PDF)</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="personal">
+      <div class="section-header">
+        <h2>Personal Income Tax</h2>
+        <p>
+          This section is prepared already and the corresponding videos can be added later.
+        </p>
+        <p>
+          <a href="https://link.springer.com/chapter/10.1007/978-3-030-37081-7_4" target="_blank" rel="noopener noreferrer">
+            Related book chapter
+          </a>
+        </p>
+      </div>
+
+      <div class="info-box">
+        Videos for this section will be added soon.
+      </div>
+    </section>
+
 <section class="section section-subtle">
   <details class="frontmatter-note">
     <summary>On the figures in the front matter</summary>
@@ -159,3 +485,116 @@
     </div>
   </details>
 </section>
+
+    <section class="section" id="imprint">
+      <div class="section-header">
+        <h2>imprint</h2>
+      </div>
+
+      <div class="info-box imprint-box">
+        <p><strong>Kontaktdaten des Verantwortlichen für Datenschutz</strong></p>
+
+        <p>
+          Sollten Sie Fragen zum Datenschutz haben, finden Sie nachfolgend die Kontaktdaten
+          der verantwortlichen Person bzw. Stelle:
+        </p>
+
+        <p>
+          Andreas Löffler (Freie Universität Berlin), Thielallee 73, 14195 Berlin, E-Mail-Adresse:
+          <a href="mailto:loefflera@zedat.fu-berlin.de">loefflera@zedat.fu-berlin.de</a>
+        </p>
+
+        <p>
+          Wir entwickeln die Inhalte dieser Website ständig weiter und bemühen uns korrekte
+          und aktuelle Informationen bereitzustellen. Leider können wir keine Haftung für die
+          Korrektheit aller Inhalte auf dieser Website übernehmen, speziell für jene, die seitens
+          Dritter bereitgestellt wurden. Als Diensteanbieter sind wir nicht verpflichtet, die von
+          Ihnen übermittelten oder gespeicherten Informationen zu überwachen oder nach Umständen
+          zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
+        </p>
+
+        <p>
+          Unsere Verpflichtungen zur Entfernung von Informationen oder zur Sperrung der Nutzung
+          von Informationen nach den allgemeinen Gesetzen aufgrund von gerichtlichen oder behördlichen
+          Anordnungen bleiben auch im Falle unserer Nichtverantwortlichkeit davon unberührt.
+        </p>
+
+        <p>
+          Sollten Ihnen problematische oder rechtswidrige Inhalte auffallen, bitte wir Sie uns
+          umgehend zu kontaktieren, damit wir die rechtswidrigen Inhalte entfernen können.
+          Sie finden die Kontaktdaten im Impressum. Haftung für Links auf dieser Website
+        </p>
+
+        <p>
+          Unsere Website enthält Links zu anderen Websites für deren Inhalt wir nicht verantwortlich sind.
+          Haftung für verlinkte Websites besteht für uns nicht, da wir keine Kenntnis rechtswidriger Tätigkeiten
+          hatten und haben, uns solche Rechtswidrigkeiten auch bisher nicht aufgefallen sind und wir Links sofort
+          entfernen würden, wenn uns Rechtswidrigkeiten bekannt werden.
+        </p>
+
+        <p>
+          Wenn Ihnen rechtswidrige Links auf unserer Website auffallen, bitte wir Sie uns zu kontaktieren.
+          Sie finden die Kontaktdaten im Impressum.
+        </p>
+
+        <p>
+          Alle Inhalte dieser Webseite (Bilder, Fotos, Texte, Videos) unterliegen dem Urheberrecht.
+          Bitte fragen Sie uns bevor Sie die Inhalte dieser Website verbreiten, vervielfältigen oder verwerten
+          wie zum Beispiel auf anderen Websites erneut veröffentlichen. Falls notwendig, werden wir die unerlaubte
+          Nutzung von Teilen der Inhalte unserer Seite rechtlich verfolgen.
+        </p>
+
+        <p>
+          Sollten Sie auf dieser Webseite Inhalte finden, die das Urheberrecht verletzen, bitten wir Sie uns
+          zu kontaktieren. Alle Texte sind urheberrechtlich geschützt.
+        </p>
+
+        <p>
+          Wir haben diese Datenschutzerklärung (Fassung 18.04.2023-322478818) verfasst, um Ihnen gemäß der Vorgaben
+          der Datenschutz-Grundverordnung (EU) 2016/679 und anwendbaren nationalen Gesetzen zu erklären, welche
+          personenbezogenen Daten (kurz Daten) wir als Verantwortliche – und die von uns beauftragten Auftragsverarbeiter
+          (z. B. Provider) – verarbeiten, zukünftig verarbeiten werden und welche rechtmäßigen Möglichkeiten Sie haben.
+          Die verwendeten Begriffe sind geschlechtsneutral zu verstehen.
+        </p>
+
+        <p>
+          Diese Datenschutzerklärung gilt für alle von uns im Unternehmen verarbeiteten personenbezogenen Daten und für alle
+          personenbezogenen Daten, die von uns beauftragte Firmen (Auftragsverarbeiter) verarbeiten. Mit personenbezogenen
+          Daten meinen wir Informationen im Sinne des Art. 4 Nr. 1 DSGVO wie zum Beispiel Name, E-Mail-Adresse und postalische
+          Anschrift einer Person. Die Verarbeitung personenbezogener Daten sorgt dafür, dass wir unsere Dienstleistungen und
+          Produkte anbieten und abrechnen können, sei es online oder offline. Der Anwendungsbereich dieser Datenschutzerklärung
+          umfasst: alle Onlineauftritte (Websites, Onlineshops), die wir betreiben, Social Media Auftritte und E-Mail-Kommunikation,
+          mobile Apps für Smartphones und andere Geräte.
+        </p>
+
+        <p>
+          Wir verarbeiten Ihre Daten nur, wenn mindestens eine der folgenden Bedingungen zutrifft:
+          1. Einwilligung (Artikel 6 Absatz 1 lit. a DSGVO): Sie haben uns Ihre Einwilligung gegeben, Daten zu einem bestimmten Zweck
+          zu verarbeiten. Ein Beispiel wäre die Speicherung Ihrer eingegebenen Daten eines Kontaktformulars.
+          2. Vertrag (Artikel 6 Absatz 1 lit. b DSGVO): Um einen Vertrag oder vorvertragliche Verpflichtungen mit Ihnen zu erfüllen,
+          verarbeiten wir Ihre Daten.
+          3. Rechtliche Verpflichtung (Artikel 6 Absatz 1 lit. c DSGVO): Wenn wir einer rechtlichen Verpflichtung unterliegen,
+          verarbeiten wir Ihre Daten.
+          4. Berechtigte Interessen (Artikel 6 Absatz 1 lit. f DSGVO): Im Falle berechtigter Interessen, die Ihre Grundrechte nicht
+          einschränken, behalten wir uns die Verarbeitung personenbezogener Daten vor. Wir müssen zum Beispiel gewisse Daten verarbeiten,
+          um unsere Website sicher und wirtschaftlich effizient betreiben zu können. Diese Verarbeitung ist somit ein berechtigtes Interesse.
+        </p>
+
+        <p>
+          Alle Texte sind urheberrechtlich geschützt. Quelle:
+          <a href="https://www.adsimple.de/datenschutz-generator/" target="_blank" rel="noopener noreferrer">
+            Erstellt mit dem Datenschutz Generator von AdSimple
+          </a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      Open educational material for the course on stochastic discounted cash flow valuation.
+    </div>
+  </footer>
+</body>
+</html>
+
