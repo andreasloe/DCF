@@ -66,6 +66,13 @@ header {
   font-size: 1.05rem;
 }
 
+.hero-note {
+  margin: 0 0 24px;
+  max-width: 860px;
+  color: #4b5563;
+  font-size: 0.98rem;
+}
+
 .button-row {
   display: flex;
   flex-wrap: wrap;
@@ -101,7 +108,7 @@ header {
 }
 
 .button.tertiary {
-  background: #eef1f5;
+  background: #ffffff;
   color: #6b7280;
   border: 1px solid #d1d5db;
   padding: 10px 14px;
@@ -112,7 +119,7 @@ header {
 .button.tertiary:hover {
   text-decoration: none;
   color: #4b5563;
-  background: #e5e7eb;
+  background: #f9fafb;
   box-shadow: none;
   transform: none;
 }
