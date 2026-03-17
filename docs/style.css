@@ -193,9 +193,21 @@ main {
   box-shadow: var(--shadow);
 }
 
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin: 24px 0 28px;
+}
+
 .featured-video {
   overflow: hidden;
-  margin: 24px 0 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-video-summary {
+  background: linear-gradient(180deg, #ffffff 0%, #f5f8ff 100%);
 }
 
 .featured-video .thumb,
@@ -227,6 +239,9 @@ main {
 
 .featured-video .content {
   padding: 18px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
 
 .video-grid {
@@ -430,6 +445,10 @@ footer {
 }
 
 @media (max-width: 900px) {
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
+
   .video-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
