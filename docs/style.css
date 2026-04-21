@@ -319,6 +319,7 @@ main {
 }
 
 .featured-video .pdf-link {
+  grid-row: 2;
   font-size: 1.5rem;
   line-height: 1.25;
 }
