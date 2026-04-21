@@ -239,9 +239,12 @@ main {
 
 .featured-video .content {
   padding: 18px;
-  display: flex;
+  display: grid;
   flex: 1;
-  flex-direction: column;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 14px;
+  row-gap: 8px;
+  align-items: baseline;
 }
 
 .video-grid {
@@ -256,17 +259,28 @@ main {
 
 .card .content {
   padding: 12px 14px 16px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 12px;
+  row-gap: 6px;
+  align-items: baseline;
 }
 
 .eyebrow,
 .card .eyebrow {
+  grid-column: 1 / -1;
   margin: 0 0 4px;
   color: var(--muted);
   font-size: 0.88rem;
 }
 
+.featured-video h2,
 .card h3 {
+  grid-column: 1;
   margin: 0;
+}
+
+.card h3 {
   font-size: 1rem;
   line-height: 1.35;
 }
@@ -278,9 +292,13 @@ main {
 }
 
 .featured-video h2 {
-  margin: 0 0 8px;
   font-size: 1.5rem;
   line-height: 1.25;
+}
+
+.featured-video .content > p:not(.eyebrow):not(.pdf-link) {
+  grid-column: 1 / -1;
+  margin: 0;
 }
 
 .featured-video p:last-child {
@@ -288,8 +306,21 @@ main {
 }
 
 .pdf-link {
-  margin: 8px 0 0;
-  font-size: 0.95rem;
+  grid-column: 2;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.pdf-link a {
+  font-weight: 400;
+}
+
+.featured-video .pdf-link {
+  font-size: 1.5rem;
+  line-height: 1.25;
 }
 
 .info-box {
