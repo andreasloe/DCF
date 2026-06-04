@@ -364,20 +364,23 @@ main {
   overflow: hidden;
 }
 
-.frontmatter-note summary {
+.frontmatter-note summary,
+.imprint-details summary {
   cursor: pointer;
-  list-style: none;
   padding: 16px 18px;
   font-weight: 600;
   color: #4b5563;
   background: #fafafb;
+  list-style-position: inside;
 }
 
-.frontmatter-note summary::-webkit-details-marker {
-  display: none;
+.frontmatter-note summary:hover,
+.imprint-details summary:hover {
+  color: var(--accent);
 }
 
-.frontmatter-note[open] summary {
+.frontmatter-note[open] summary,
+.imprint-details[open] summary {
   border-bottom: 1px solid var(--border);
 }
 
@@ -457,21 +460,6 @@ main {
 
 .imprint-box {
   background: #fbfbfc;
-}
-
-.imprint-details summary {
-  cursor: pointer;
-  color: var(--accent);
-  font-weight: 700;
-  list-style-position: inside;
-}
-
-.imprint-details summary:hover {
-  text-decoration: underline;
-}
-
-.imprint-details[open] summary {
-  margin-bottom: 18px;
 }
 
 .imprint-box p {
