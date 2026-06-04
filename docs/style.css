@@ -459,6 +459,21 @@ main {
   background: #fbfbfc;
 }
 
+.imprint-details summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 700;
+  list-style-position: inside;
+}
+
+.imprint-details summary:hover {
+  text-decoration: underline;
+}
+
+.imprint-details[open] summary {
+  margin-bottom: 18px;
+}
+
 .imprint-box p {
   margin-top: 0;
   margin-bottom: 12px;
@@ -473,6 +488,13 @@ footer {
   background: #ffffff;
   padding: 28px 0 50px;
   color: var(--muted);
+}
+
+footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  align-items: center;
 }
 
 @media (max-width: 900px) {
